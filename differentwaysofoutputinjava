@@ -1,0 +1,16 @@
+package codingPractise;
+
+public class differentwaysofoutputinjava {
+
+	public static void main(String[] args) {
+		//This is an example of single line comment.
+		/*
+		 * This is an example of multiple line comment.
+		 */
+		//Below are different ways through which we can display output in console/terminal.
+		System.out.print("This is an example of sinlge line print()."); //print() method display single line on console/terminal
+		System.out.println("This is an example of println() method."); //  println() method display single line and this adds a line break  in output;
+		System.out.print("This is first line.\nThis is second line."); // "\n" is used when we need to add line break in print() method;
+	}
+
+}
