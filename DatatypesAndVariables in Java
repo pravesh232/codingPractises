@@ -1,0 +1,32 @@
+package codingPractise;
+
+public class DatatypesAndVariable {
+	int a=12;//Here a is an example of instance variable as it is inside class but outside all method. It is non-static in nature.
+	public static void main(String[] args) {
+		//This is an example of different types of data types.(Primitive data types (Numeric and Non-numeric data types))
+		// This also an example of variable // These all variables are examples of local variables of method main();.
+		final int num =12; // number
+		
+		float deci = 12.33333f;  // decimal (write f in the end)
+		double longDeci= 1222.2222222;// long decimal
+		long  longg = 2222;//longer number
+		short sshort = 221; // shorter number
+		boolean isTrue = true;//true or false value
+		char letter ='A';// letter
+		byte a = 1;// byte
+		System.out.println(num);
+		System.out.println(deci);
+		System.out.println(longDeci);
+		System.out.println(longg);
+		System.out.println(sshort);
+		System.out.println(isTrue);
+		System.out.println(letter);
+		System.out.print(a);
+		
+		//More example on variables.
+		int A =12;
+		int e=13;
+		int _eer =144;
+	}
+
+}
