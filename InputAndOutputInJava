@@ -1,0 +1,31 @@
+package codingPractise;
+import java.util.Scanner;
+
+public class InputAndOutputiInJava {
+
+	public static void main(String[] args) {
+		// Below is an example of output  in java.
+		System.out.println("This is output.");
+		//Below is an example of input in java.
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number = ");
+		int num = sc.nextInt();
+		System.out.println("Your typed Number is = "+num);
+		//more input types
+		System.out.println("Enter a name= ");
+		String name = sc.next();
+		System.out.print("Your Name is = "+name);
+		System.out.print("Enter a decimal number = ");
+		double deci = sc.nextDouble();
+		System.out.print("Your typed decimal Number is = "+deci);
+		System.out.print("Enter True or false = ");
+		boolean isTrue = sc.nextBoolean();
+		System.out.print("Your typed boolean value  is = "+isTrue);
+		System.out.print("Enter a number = ");
+		char letters = sc.next().charAt(0);
+		System.out.print("Your typed Number is = "+letters);
+		
+		
+	}
+
+}
